@@ -6,15 +6,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
     "db:studio": "prisma studio",
-    "db:verify": "node scripts/verify-database.js",
-    "azure:build": "npm ci && npm run build",
-    "azure:start": "npm start"
+    "db:verify": "node scripts/verify-database.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.24.3",
