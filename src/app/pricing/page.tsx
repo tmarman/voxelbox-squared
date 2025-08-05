@@ -128,7 +128,7 @@ export default function PricingPage() {
               Simple <span className="text-primary">pricing</span>
             </h1>
             <p className="text-xl text-muted-foreground">
-              Choose the box that fits your business. Start free, upgrade when you're ready to scale.
+              Choose the box that fits your business. Start free, upgrade when you&apos;re ready to scale.
             </p>
           </div>
 
@@ -215,12 +215,12 @@ export default function PricingPage() {
                 <p className="text-muted-foreground">Yes! You can upgrade or downgrade your plan at any time. Changes take effect on your next billing cycle.</p>
               </div>
               <div className="bg-card border border-border rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-foreground mb-2">What's included in business formation?</h3>
+                <h3 className="text-lg font-semibold text-foreground mb-2">What&apos;s included in business formation?</h3>
                 <p className="text-muted-foreground">We handle incorporation paperwork, EIN registration, operating agreements, and registered agent services. Everything you need to legally start your business.</p>
               </div>
               <div className="bg-card border border-border rounded-lg p-6">
                 <h3 className="text-lg font-semibold text-foreground mb-2">Do you offer refunds?</h3>
-                <p className="text-muted-foreground">We offer a 30-day money-back guarantee on all plans. If you're not satisfied, we'll refund your payment, no questions asked.</p>
+                <p className="text-muted-foreground">We offer a 30-day money-back guarantee on all plans. If you&apos;re not satisfied, we&apos;ll refund your payment, no questions asked.</p>
               </div>
             </div>
           </div>

@@ -13,7 +13,12 @@
       "Bash(chmod:*)",
       "Bash(git init:*)",
       "Bash(find:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(az account:*)",
+      "Bash(az webapp show:*)",
+      "Bash(npm run build:*)",
+      "Bash(zip:*)",
+      "Bash(az webapp deploy:*)"
     ],
     "deny": []
   }

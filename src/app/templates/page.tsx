@@ -209,7 +209,7 @@ export default function TemplatesPage() {
             <h2 className="text-2xl font-bold mb-4">Need something custom?</h2>
             <p className="text-muted-foreground mb-6">
               Our AI can create a custom voxel combination for your specific business needs. 
-              Just describe what you're building.
+              Just describe what you&apos;re building.
             </p>
             <Button size="lg" variant="outline" asChild>
               <Link href="/custom">
