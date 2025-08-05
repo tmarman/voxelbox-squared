@@ -5,15 +5,25 @@
 
 echo "Starting Voxelbox application..."
 
-# Set NODE_ENV to production
+# Set environment variables
 export NODE_ENV=production
+export PORT=${PORT:-8080}
 
-# Install dependencies if needed (usually not required in production)
+# Navigate to app directory
+cd /home/site/wwwroot
+
+# Install dependencies if needed
 if [ ! -d "node_modules" ]; then
     echo "Installing dependencies..."
-    npm ci --only=production
+    npm install --production
+fi
+
+# Build the application if .next doesn't exist
+if [ ! -d ".next" ]; then
+    echo "Building Next.js application..."
+    npm run build
 fi
 
 # Start the Next.js application
-echo "Starting Next.js server..."
+echo "Starting Next.js server on port $PORT..."
 npm start
