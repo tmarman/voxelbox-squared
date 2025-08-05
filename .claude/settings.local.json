@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(rm:*)",
+      "Bash(dotnet new:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm install)",
+      "Bash(npm run type-check:*)",
+      "Bash(timeout 10s npm run dev)",
+      "Bash(npm run dev:*)",
+      "Bash(npm install:*)",
+      "Bash(chmod:*)",
+      "Bash(git init:*)",
+      "Bash(find:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  }
+}
